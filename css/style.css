@@ -564,7 +564,8 @@ img {
 
   transition: transform 250ms var(--main-transition);
 }
-.cards-list__item:hover .cards-overlay {
+.cards-list__link:hover .cards-overlay,
+.cards-list__link:focus .cards-overlay {
   transform: translateX(0%);
 }
 .cards-text {
